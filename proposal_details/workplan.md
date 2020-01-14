@@ -4,9 +4,8 @@
 
 The proposed technical work can be summarized in four points:
 
-- Find the correct Transonic abstraction to represent a concept available in
-(some of) the backend(s). Define a good API for Transonic to express these
-concepts.
+- Find the correct Transonic abstractions to represent most concepts available
+in the accelerators. Design a good API for Transonic to express these concepts.
 
 - Improve the accelerators when needed. Fix bugs and performance issues.
 Implement new features when needed (better fused types in Cython, `dataclass`
