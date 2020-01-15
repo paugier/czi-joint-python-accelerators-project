@@ -1,4 +1,4 @@
-# The Joint Python accelerators project
+# Abstract
 
 The joint Python Accelerators project gathers developers of Transonic, Cython,
 Pythran, Numba and scikit-image. The goal of our collaboration is to improve
