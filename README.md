@@ -1,4 +1,17 @@
-# Join Python Accelerators Project application (CZI program)
+# Joint Python Accelerators Project application (CZI program)
+
+The joint Python Accelerators project gathers developers of
+[Transonic](transonic.readthedocs.io/), Cython, Pythran and Numba namely:
+
+- Pierre Augier (Transonic)
+- Serge Guelton (Pythran)
+- Stefan Behnel (Cython)
+- Stanley Seibert (Numba)
+
+This project has been initiated by core-developers of scikit-image (Juan
+Nunez-Iglesias, Stéfan van der Walt and Emmanuelle Gouillart).
+
+## Application
 
 Here is the call for proposals for the CZI program:
 

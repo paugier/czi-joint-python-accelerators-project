@@ -88,7 +88,7 @@ types (`cdef class` in Cython and `jitclass` in Numba). Support in Pythran for
 
 - Blog notes about the avancement of the project.
 
-- One article presenting Transonic and the Join Python Accelerators project
+- One article presenting Transonic and the Joint Python Accelerators project
 submitted to the Journal of Open Source Software.
 
 - Documentation of Transonic and of the demo package, targetting both
