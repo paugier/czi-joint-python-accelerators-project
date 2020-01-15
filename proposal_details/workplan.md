@@ -37,7 +37,7 @@ kernels.
 - Increase the robustness of Transonic. End-users should never be disturbed by
 Transonic. This implies refactoring Transonic code and improving
 dependencies used for code analyzes and transformations (Beniget and Gast).
-This will also be achieved by increasing testing and writting a demo package
+This will also be achieved by increasing testing and writing a demo package
 using Transonic as scikit-image would use it (with good documentation for
 developers and for users).
 
@@ -60,7 +60,7 @@ different backends.
 - More scikit-image ported to Transonic with serious benchmarks. These
 benchmarks should be reproducible on different platforms and the results will
 be made available on a website. We will propose to developers using other
-langages to submit their own implementations for some functions.
+languages to submit their own implementations for some functions.
 
 - Improvement of Numba performance on high-level code.
 
@@ -78,7 +78,7 @@ example Weld and Pyccel) to start to collaborate on their Transonic backend.
 Cython) and cfunc (Numba) and be able to easily create scipy.LowLevelCallable.
 
 - Find the correct Transonic abstraction to represent parallel instructions.
-Cython and Numba use prange and Pythran uses OpenMP annotations.
+Cython and Numba use `prange` and Pythran uses OpenMP annotations.
 
 - Find the correct Transonic abstraction to represent user-defined low-level
 types (`cdef class` in Cython and `jitclass` in Numba). Support in Pythran for
@@ -86,12 +86,12 @@ types (`cdef class` in Cython and `jitclass` in Numba). Support in Pythran for
 
 ## Dissemination of the results and communication
 
-- Blog notes about the avancement of the project.
+- Blog notes about the advancement of the project.
 
 - One article presenting Transonic and the Joint Python Accelerators project
 submitted to the Journal of Open Source Software.
 
-- Documentation of Transonic and of the demo package, targetting both
+- Documentation of Transonic and of the demo package, targeting both
 developers of libraries and users (how to chose and specify the backends).
 
 - Benchmark repository and website.
@@ -100,7 +100,6 @@ developers of libraries and users (how to chose and specify the backends).
 Scipy conference and Euroscipy).
 
 - Organization of a workshop with participants of this project and
-core-developers of other Python libraries to present the results obtained.
-
-We will also invite to this workshop people involved in the HPy project (PyPy,
+core-developers of other Python libraries to present the obtained results. We
+will also invite to this workshop people involved in the HPy project (PyPy,
 Numpy, Cython).
