@@ -3,7 +3,7 @@
 The joint Python Accelerators project gathers developers of Transonic, Cython,
 Pythran, Numba and scikit-image. The goal of our collaboration is to improve
 the state of Python code acceleration so that clean and modern Python code can
-very easily be accelerated to reach very high performances.
+easily be accelerated to reach high performances.
 
 We propose to improve interoperability and compatibility between existing
 accelerators. We will first improve the integration and feature coverage of the
@@ -14,8 +14,8 @@ Moreover, we will base our work on a new package called Transonic, which can
 accelerate one code with different accelerators, with just-in-time and
 ahead-of-time compilations. We propose to work on the usage of Transonic in
 scikit-image, which is a good example of a widely used Python library that
-relies a lot Cython while its developers would love to be able to write cleaner
-and simpler Python and to also use Numba and Pythran.
+relies a lot on Cython while its developers would love to be able to write cleaner
+and simpler Python and to also use Numba and Pythran as accelerators.
 
 While working on scikit-image code, we will improve its maintainability (by
 replacing Cython code by simpler Python-Numpy code) but also the resulting
