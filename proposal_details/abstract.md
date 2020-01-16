@@ -2,7 +2,7 @@
 
 The joint Python Accelerators project gathers developers of Transonic, Cython,
 Pythran, Numba and scikit-image. The goal of our collaboration is to improve
-the state of Python code acceleration so that clean and modern Python code can
+the state of Python acceleration so that clean and modern Python code can
 easily be accelerated to reach high performances.
 
 We propose to improve interoperability and compatibility between existing
@@ -17,20 +17,19 @@ scikit-image, which is a good example of a widely used Python library that
 relies a lot on Cython while its developers would love to be able to write cleaner
 and simpler Python and to also use Numba and Pythran as accelerators.
 
-While working on scikit-image code, we will improve its maintainability (by
-replacing Cython code by simpler Python-Numpy code) but also the resulting
-performance. We will also improve the accelerators by fixing bugs, implementing
-missing features and increasing performances.
+While working on scikit-image code, we will improve its maintainability and the
+resulting performance. We will also improve the accelerators by fixing bugs,
+implementing missing features and increasing performances. This will have a
+direct impact on life sciences through the improvement of many Python packages.
 
 More generally, this one-year project will greatly improve the state of the
 scientific Python ecosystem. There will be one tool adapted for both developers
-of fundamental libraries (like scikit-image) and simple users, with a clean API
-and good documentation.
+of fundamental libraries (like scikit-image) and simple users (like scientists
+and students), with a clean API and good documentation.
 
 Moreover, this short-term project will launch a long-term dynamics on
 performance for scientific Python, based on compatibility, interoperability and
 gentle competition between the accelerators. The Joint Python accelerators
-project will for example be aware of the new project HPy, which would allow
-scientific code using Numpy to be executed efficiently with PyPy. We will
-dedicate part of our final workshop to study what need to be done in our
-different projects to get good compatibility with PyPy.
+project will for example be aware of the new and promising project HPy and
+EPython, which would allow scientific codes to be executed efficiently with
+PyPy.
