@@ -6,16 +6,28 @@ requested in the Software Project Details part of the application.
 
 - First Name
 
+Pierre
+
 - Last name
 
-- Email
+Augier
+
+- Email ...
 
 - Current Employer
 
+CNRS
+
 - Title/Position
 
+Researcher
+
 - Country of Residence
+
+FRANCE
 
 - Applicant Organization: Organization that would be directly receiving and
 distributing funding if a grant is successfully awarded. Note that this may be
 different from the Applicant’s main affiliation/current employer.
+
+NumFOCUS
