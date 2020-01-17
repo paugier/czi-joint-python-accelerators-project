@@ -1,3 +1,12 @@
+---
+title: Optional Attachments
+lang: en
+documentclass: article
+numbersections: true
+header-includes:
+    - \include{header}
+---
+
 # References for the proposal
 
 ## Ralf Gommers
