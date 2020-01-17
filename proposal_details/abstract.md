@@ -13,13 +13,14 @@ already written.
 Moreover, we will base our work on a new package called Transonic, which can
 accelerate one code with different accelerators, with just-in-time and
 ahead-of-time compilations. We propose to work on the usage of Transonic in
-scikit-image, which is a good example of a widely used library that
-relies a lot on Cython while its developers would love to be able to write cleaner
-and simpler Python and to also use Numba and Pythran as accelerators.
+scikit-image, which is a good example of a widely used library that relies a
+lot on Cython while its developers would love to be able to write cleaner and
+simpler Python and to also use Numba and Pythran as accelerators.
 
-While working on scikit-image code, we will improve its maintainability and its performance. We will also improve the accelerators by fixing bugs,
-implementing missing features and increasing performance. This will have a
-direct impact on life sciences through the improvement of many Python packages.
+While working on scikit-image code, we will improve its maintainability and its
+performance. We will also improve the accelerators by fixing bugs, implementing
+missing features and increasing performance. This will have a direct impact on
+life sciences through the improvement of many Python packages.
 
 More generally, this one-year project will greatly improve the state of the
 scientific Python ecosystem. There will be one tool adapted for both developers

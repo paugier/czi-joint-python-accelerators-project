@@ -4,21 +4,24 @@
 
 - Solve Cython issues that are blockers for Transonic-Cython.
 
-- New releases of Beniget, Gast and Transonic (more robust)
+- New releases of Beniget, Gast and Transonic (cleaner implementation, more
+robust)
 
-- Demo package scikit-image-transonic (repository, documentation)
+- Demo package transonic_demo (repository and documentation)
 
-- Pull-request in scikit-image with simple use of Transonic-Cython
+- Pull-requests in skimage-experiments and scikit-image with simple use of
+Transonic-Cython
 
 ### Phase 1 (November 2020 - February 2021)
 
 - Benchmarks on many scikit-image numerical kernels (repository and website)
 
-- Pull-request in scikit-image for faster kernels using alternative backends
+- Pull-requests in skimage-experiments and scikit-image for faster kernels
+using alternative backends
 
 ### Phase 2 (March-May 2021)
 
-- Documentation Transonic and demo package
+- Documentation of the packages Transonic and transonic_demo
 
 - Blog notes about the advancement of the project.
 
