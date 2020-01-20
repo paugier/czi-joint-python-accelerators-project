@@ -13,10 +13,11 @@ It is just a draft where I list possible costs to see what we can finance!
 
 - $5,000 for travels and meetings
 
-- $25,000 for our final workshop - sprints. We want to be able to invite (i)
-people from scientific Python libraries which could potentially used our
-results and (ii) people involved in new and promissing projects like HPy and
-EPython.
+- $15,000 for our final workshop with tutorials and sprints. We want to be able
+to invite (i) people from scientific Python libraries which could potentially
+used our results and (ii) people involved in new and promissing projects like
+HPy and EPython. We will look for other sources of funding to be able to invite
+people.
 
 - $75,000 to hire a developer during one year ($65,000 + 15% indirect costs).
 
@@ -32,7 +33,7 @@ conferences.
 
 ## Pythran
 
-- $35,000 for Serge's work
+- $35,000 for Serge Guelton's work
 
 - $2,500 for an internship (work on issues #1059 and #1002)
 
@@ -40,11 +41,7 @@ conferences.
 
 ## Cython
 
-For ~ $50,000 in total (?)
-
-- ?
-
-- ?
+- $60,000 for Stefan Behnel's work.
 
 ## Numba
 

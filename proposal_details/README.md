@@ -7,6 +7,8 @@ application summary page; click on the three dots to the right of the
 application title (next to the Preview link); and select Rename from the
 dropdown menu (maximum of 75 characters, including spaces)
 
+The Joint Python Accelerators Project
+
 ## Previously applied
 
 Did you previously apply for funding for this or a related proposal under the
@@ -16,11 +18,18 @@ EOSS program? If so, please add the application number, e.g. EOSS-0000005345
 
 One sentence (maximum of 255 characters including spaces)
 
+Developers of scikit-image and different Python accelerators (Transonic,
+Cython, Pythran, Numba) launch a collaboration based on compatibility,
+interoperability and gentle competition, to get high performance with clean and
+modern Python code.
+
 ## Amount Requested
 
 Enter total budget amount requested in USD, including indirect costs; this
 number should be between $50k and $250k total costs and match total described
 in the Budget Description
+
+$250k
 
 ## Abstract/Proposal Summary
 

@@ -1,95 +1,84 @@
 # Workplan
 
-## Summary
+The proposed work can be summarized in nine points:
 
-The proposed technical work can be summarized in four points:
+1. scikit-image numerical kernels ported to Transonic with serious comparison
+between the existing Cython solutions and the different Transonic backends.
+These benchmarks should be reproducible on different platforms and the results
+will be made available on a website. We will propose to developers using other
+languages to submit their own implementations for comparison.
 
-- Find the correct Transonic abstractions to represent most concepts available
-in the accelerators. Design a good API for Transonic to express these concepts.
+2. Find the correct Transonic abstractions to represent most concepts available
+in the accelerators (`cast`, `nogil`, PyCapsules/cfunc/scipy.LowLevelCallable,
+parallel instructions, user-defined low-level types, fused types/multiple
+signatures, fastmath). Design a good API for Transonic to express these
+concepts.
 
-- Improve the accelerators when needed. Fix bugs and performance issues.
-Implement new features when needed (better fused types in Cython, `dataclass`
-in Pythran).
+3. Improve Transonic backends, i.e. write better/faster Cython/Numba/Pythran
+code from Transonic code. Demonstrate that Transonic-Cython is as fast as
+Cython on most scikit-image numerical kernels.
 
-- Improve Transonic backends, i.e. write better/faster Cython/Numba/Pythran
-code from Transonic code.
-
-- Improve the integration and feature coverage of the Pythran support in
-Cython. This has the potential to improve without modification already written
-Cython codes. More standard NumPy/SciPy code gets vectorised and accelerated.
-We should even be able to add support for vectorised binary operators on memory
-views.
-
-Beside these enhancements, we will also dedicate time and energy for community
-engagement, documentation and maintenance. For example, Cython has more than
-700 opened issues and 77 pull requests! Taking care of users and contributors
-is also an important task.
-
-## Detailed tasks
-
-### Phase 0 (June-October 2020)
-
-- Solve Cython issues that are blockers for Transonic-Cython. In particular,
-improve Cython's pure-Python mode (useful for Transonic and Cython users).
-
-- Improve the Cython backend with support for `cast` and `nogil`. Demonstrate
-that Transonic-Cython is as fast as Cython on most scikit-image numerical
-kernels.
-
-- Increase the robustness of Transonic. End-users should never be disturbed by
+4. Increase the robustness of Transonic. End-users should never be disturbed by
 Transonic. This implies refactoring Transonic code and improving dependencies
 used for code analyzes and transformations (Beniget and Gast). We will also
 increase testing and write a demo package using Transonic as scikit-image would
 use it (with good documentation for developers and for users).
 
-- Pull-requests in scikit-image with simple use of Transonic-Cython (replace
-.pyx by .py using Transonic, but keeping the same accelerator).
+5. Other Transonic improvements:
 
-### Phase 1 (November 2020 - February 2021)
+   - Making it easy to write a new backend to Transonic. Currently, it should
+   already be possible to write a backend as a Transonic extension. We will
+   improve the documentation on this feature and contact developers of other
+   accelerators (for example Weld and Pyccel) to collaborate on their Transonic
+   backend. We plan to propose an internship on this subject.
 
-- Improve the 3 main backends. Involvement of developers of the accelerators to
-get better performance with Transonic. Extend Transonic API if needed.
+   - Find good solutions for how the Transonic backend in chosen by the user.
 
-- Improve fused types in Transonic and in the accelerators (work needed in
-Cython).
+   - Transonic API to define alternative implementations of a function for
+   different backends.
 
-- Find good solutions for how the Transonic backend in chosen by the user.
+6. Pull-requests on scikit-image and skimage-experiments repositories to use the
+accelerators via Transonic. First, Cython to Transonic-Cython, then faster
+kernels (and/or cleaner code) with alternative backends (Pythran and Numba).
 
-- Transonic API to define alternative implementations of a function for
-different backends.
+7. Improve the accelerators when needed. Fix bugs, performance issues and new
+features (better fused types in Cython, improve Cython's pure-Python mode,
+`dataclass` in Pythran, improvement of Numba performance on high-level code).
 
-- More scikit-image ported to Transonic with serious benchmarks. These
-benchmarks should be reproducible on different platforms and the results will
-be made available on a website. We will propose to developers using other
-languages to submit their own implementations for comparison.
+8. Improve the integration and feature coverage of the Pythran support in
+Cython. This has the potential to improve without modification already written
+Cython codes. More standard NumPy/SciPy code gets vectorised and accelerated.
+We should even be able to add support for vectorised binary operators on memory
+views.
 
-- Improvement of Numba performance on high-level code.
+9. Beside these enhancements, we will also dedicate time and energy for community
+engagement, documentation and maintenance. For example, Cython has more than
+700 opened issues and 77 pull requests! Taking care of users and contributors
+is also an important task.
 
-- Pull-requests in scikit-image for faster kernels (and/or cleaner code) with
-alternative backends (Pythran and Numba).
+The deeper improvements of the accelerators with be performed by core
+developers of these projects, namely Serge Guelton for Pythran, Stefan Behnel
+for Cython and Stanley Seibert and Valentin Haenel for Numba. Stefan will also
+solve Cython known issues that are blockers for Transonic-Cython (see
+<https://transonic.readthedocs.io/en/latest/backends/cython.html>). Serge will
+be implied in the tasks on Transonic/Gast/Beniget refactoring and
+Pythran/Cython integration.
 
-### Phase 2 (March-May 2021)
+A full-time developer hired for the project will work with Pierre Augier
+(creator for Transonic) and in closed collaboration with the other members of
+the projects. Her/His tasks will be about (points 1 to 6 and 9):
 
-- Making it easy to write a new backend to Transonic. Currently, it should
-already be possible to write a backend as a Transonic extension. We will
-improve the documentation on this feature and contact developers of other
-accelerators (for example Weld and Pyccel) to collaborate on their Transonic
-backend. We plan to propose an internship on this subject.
+- scikit-image and Transonic,
 
-- Find the correct Transonic abstraction to represent:
+- the benchmarks and the associated website,
 
-  - PyCapsules (Pythran and Cython) and cfunc (Numba) and to easily
-  create scipy.LowLevelCallable,
+- report issues and work on the simplest ones,
 
-  - parallel instructions. Cython and Numba use `prange` and Pythran uses
-  OpenMP annotations,
-
-  - user-defined low-level types (`cdef class` in Cython and `jitclass` in
-  Numba). Support in Pythran for `dataclass`.
+- improve the documentation of the accelerators targetting the users.
 
 ## Dissemination of the results and communication
 
-A good documentation, targeting both developers of libraries and simple users,
+Good communication, targeting both developers of libraries and simple users,
 is a key factor for the success of Transonic and of this project. We will
 therefore be very careful to spent time on the documentations of Transonic and
 of the accelerators, and more generally on communication through other channels:
@@ -108,12 +97,11 @@ Scipy conference and Euroscipy).
 
 One goal of this project is to allow every simple user of Python to easily get
 very good performance. We will try to be as inclusive and accessible as
-possible.
+possible in our communication.
 
-## Final workshop
-
-We plan to organize a workshop with tutorials and sprints. We will invite
-developers of libraries which could use the products that will be built during
-this project. Part of this workshop will be dedicated to work on the PyPy, HPy
-and EPython projects, which may become important for the future of efficient
-computing with Python.
+Finally, we plan to organize after the end of this one-year grant a workshop
+with tutorials and sprints. We will invite developers of libraries which could
+use the products that will be built during this project. Part of this workshop
+will be dedicated to work on the PyPy, HPy and EPython projects, which may
+become important for the future of efficient computing with Python. This event
+will be organized in Europe and may be coupled with EuroScipy or EuroPython.
