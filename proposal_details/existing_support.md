@@ -2,6 +2,9 @@
 
 ## Cython
 
+The Cython project currently receives USD 46.80 per month through Tidelift subscriptions.
+It does not (and did not in recent years) receive any further grants or financing.
+
 ## Numba
 
 ## Pythran
