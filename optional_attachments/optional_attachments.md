@@ -46,11 +46,11 @@ take on these new technologies until they are as tried and tested as Cython.
 Long before we discovered Transonic, we had been exploring the possibility of
 using Numba to accelerate our code. The topic came up repeatedly. As just one
 example, 2.5 years ago Stéfan van der Walt, our founder, consulted the mailing
-list about taking on Numba as a dependency [1]. The outcome that time, as well
+list about taking on Numba as a dependency [^1]. The outcome that time, as well
 as the others, was that too many members saw a Numba dependency as a too high a
 risk, and in the end, we have continued using Cython exclusively to this day.
 
-We have also explored using Pythran [2, 3], and again those efforts languished
+We have also explored using Pythran [^2] [^3], and again those efforts languished
 because we considered the technology too new, despite excellent results.
 
 In those pull requests and in private conversations, we speculated about
@@ -76,6 +76,8 @@ for the ecosystem more widely.
 
 Juan Nunez-Iglesias, CZI Imaging Software Fellow, Monash University
 
-.. [1] https://mail.python.org/archives/list/scikit-image@python.org/message/N5OQERDWVYZVVJVOPXXE7ISIIQB32BWG/
-.. [2] https://github.com/scikit-image/scikit-image/issues/2956
-.. [3] https://github.com/scikit-image/scikit-image/pull/3226
+[^1]: <https://mail.python.org/archives/list/scikit-image@python.org/message/N5OQERDWVYZVVJVOPXXE7ISIIQB32BWG/>
+
+[^2]: <https://github.com/scikit-image/scikit-image/issues/2956>
+
+[^3]: <https://github.com/scikit-image/scikit-image/pull/3226>

@@ -31,7 +31,7 @@ Portal opening date
 Mid-December 2019
 
 Application due date
-February 1, 2020
+February 3, 2020
 
 Notification of decisions
 Late April 2020
