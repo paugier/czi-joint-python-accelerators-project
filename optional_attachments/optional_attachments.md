@@ -33,3 +33,49 @@ Maturing Transonic and its integration with Pythran, Numba and Cython is likely
 to have a significant impact on the whole ecosystem.
 
 Ralf Gommers, SciPy Steering Council Chair & Director, Quansight Labs
+
+## Juan Nunez-Iglesias, on behalf of the scikit-image team
+
+Just like NumPy, SciPy, and scikit-learn, scikit-image uses Cython to compile
+critical algorithms to native code and obtain C speed in Python. For certain
+algorithms though, different accelerators can obtain better performance than
+Cython, or the same performance with simpler code. However, due to our position
+near the base of the scientific Python ecosystem, we have been reluctant to
+take on these new technologies until they are as tried and tested as Cython.
+
+Long before we discovered Transonic, we had been exploring the possibility of
+using Numba to accelerate our code. The topic came up repeatedly. As just one
+example, 2.5 years ago Stéfan van der Walt, our founder, consulted the mailing
+list about taking on Numba as a dependency [1]. The outcome that time, as well
+as the others, was that too many members saw a Numba dependency as a too high a
+risk, and in the end, we have continued using Cython exclusively to this day.
+
+We have also explored using Pythran [2, 3], and again those efforts languished
+because we considered the technology too new, despite excellent results.
+
+In those pull requests and in private conversations, we speculated about
+creating a decorator that would allow us to switch seamlessly between Cython,
+Numba, and Pythran, using the same code, and select the method that gave the
+best performance, potentially on a per-algorithm, per-machine basis. Last year,
+Stéfan discovered Transonic and pointed it out to the rest of the team. Indeed,
+someone else had independently encountered the same roadblocks and was creating
+exactly the tool we needed.
+
+By allowing us and the rest of the scientific Python ecosystem the possibility
+to experiment with different compilers/accelerators without the risk and
+commitment of a heavyweight dependency, Transonic (which is pure Python) has
+the potential to advance the state of high performance computing for all of
+scientific computing in Python. Simultaneously, an influx of new users to Numba
+and Pythran can result in major improvements in those libraries, benefiting all
+users.
+
+In short, the scikit-image team supports this application and would continue to
+collaborate with these projects to accelerate scikit-image, simplify its code
+base, and help ensure that the ease of use of these accelerators is suitable
+for the ecosystem more widely.
+
+Juan Nunez-Iglesias, CZI Imaging Software Fellow, Monash University
+
+.. [1] https://mail.python.org/archives/list/scikit-image@python.org/message/N5OQERDWVYZVVJVOPXXE7ISIIQB32BWG/
+.. [2] https://github.com/scikit-image/scikit-image/issues/2956
+.. [3] https://github.com/scikit-image/scikit-image/pull/3226
