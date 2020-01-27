@@ -58,7 +58,7 @@ is also an important task.
 
 The deeper improvements of the accelerators with be performed by core
 developers of these projects, namely Serge Guelton for Pythran, Stefan Behnel
-for Cython and Stanley Seibert and Valentin Haenel for Numba. Stefan will also
+for Cython and Valentin Haenel for Numba. Stefan will also
 solve Cython known issues that are blockers for Transonic-Cython (see
 <https://transonic.readthedocs.io/en/latest/backends/cython.html>). Serge will
 be implied in the tasks on Transonic/Gast/Beniget refactoring and
