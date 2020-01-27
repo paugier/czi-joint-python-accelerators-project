@@ -45,8 +45,4 @@ conferences.
 
 ## Numba
 
-For ~ $40,000 in total (?)
-
-- ?
-
-- ?
+- $30,000 for Val Haenel's work
