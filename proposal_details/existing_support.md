@@ -1,4 +1,4 @@
-# Exisiting support
+# Existing support
 
 ## Cython
 
