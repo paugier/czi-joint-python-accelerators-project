@@ -1,0 +1,9 @@
+Cost,Category,Reason
+5000,Common costs,Travels and meetings
+10000,Common costs,Final workshop
+65000,Common costs,One-year developer
+10000,Common costs,Publications and conferences
+2500,Transonic,Internship
+34850,Pythran,Serge Guelton's work
+60000,Cython,Stefan Behnel's work
+30000,Numba,Val Haenel's work

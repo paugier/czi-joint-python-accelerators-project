@@ -7,37 +7,28 @@ header-includes:
     - \include{header}
 ---
 
-It is just a draft where I list possible costs to see what we can finance!
-
 ## Common costs
+
+- $65,000 to hire a developer during one year.
 
 - $5,000 for travels and meetings
 
-- $15,000 for our final workshop with tutorials and sprints. We want to be able
-to invite (i) people from scientific Python libraries which could potentially
-used our results and (ii) people involved in new and promissing projects like
-HPy and EPython. We will look for other sources of funding to be able to invite
-people.
-
-- $75,000 to hire a developer during one year ($65,000 + 15% indirect costs).
-
-## For Transonic and the developer hired for the project
-
-- $5,000 of equipment
-
-- $2,500 for an internship (LowLevelCallable + backend Weld + document backends as extensions)
-
-- $7,500 for publications and conferences (Euroscipy, PyConFr, PyConDe, ...).
+- $10,000 for publications and conferences (Euroscipy, PyConFr, PyConDe, ...).
 We want to be able to invite contributors to present the project in
 conferences.
 
-## Pythran
+- $10,000 for our final workshop with tutorials and sprints. We want to be able
+to invite (i) people from scientific Python libraries which could potentially
+used our results and (ii) people involved in new and promising projects like
+HPy and EPython. We will look for other sources of funding to be able to invite
+people.
 
-- $35,000 for Serge Guelton's work
+## Pythran and Transonic
 
-- $2,500 for an internship (work on issues #1059 and #1002)
+- $34,850 for Serge Guelton's work.
 
-- $2,500 for conferences
+- $2,500 for an internship on Transonic and Pythran (LowLevelCallable + backend
+Weld + document backends as extensions, Pythran issues #1059 and #1002).
 
 ## Cython
 
@@ -45,4 +36,10 @@ conferences.
 
 ## Numba
 
-- $30,000 for Val Haenel's work
+- $30,000 for Val Haenel's work.
+
+Anaconda Inc. will pay for Val's travel to meetings.
+
+## Indirect cost (15%)
+
+- $32,600

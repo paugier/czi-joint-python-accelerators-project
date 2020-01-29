@@ -21,6 +21,9 @@ languages to submit their own implementations for comparison. This website
 should become a reference for comparison of performances on real scientific
 algorithms of different technical solutions (using Python and other langages).
 
+- Releases of new Cython and Pythran versions with bugfixes, better Cython's
+pure-Python mode and interoperativity.
+
 - Pull-requests in skimage-experiments and scikit-image for faster kernels
 using alternative backends.
 
