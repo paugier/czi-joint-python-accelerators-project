@@ -69,7 +69,7 @@ targets, and creation of C callbacks for external libraries.
 - Does the software project use continuous integration for testing?
     - Yes, Azure Pipelines for rapid testing of pull requests and an internal
       system for full testing of different Python, NumPy and platform/OS
-      combinations. 
+      combinations.
 
 ## Impact (optional)
 
@@ -83,7 +83,7 @@ targets, and creation of C callbacks for external libraries.
     - 314,687 conda package downloads (Dec 2019)
 
 - Number of software projects that depend on the software project
-    - 13,272 repositories on GitHub (https://github.com/numba/numba/network/dependents)
+    - 13,272 repositories and 579 packages on GitHub (https://github.com/numba/numba/network/dependents)
 
 - Number of monthly visitors to software project’s website, discussion forum (e.g. Stack Overflow, Discourse), or similar
     - Gitter: 392 users in Numba Q&A channel and 46 users in Numba development channel

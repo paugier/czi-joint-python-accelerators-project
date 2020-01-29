@@ -1,6 +1,8 @@
+# Landscape analysis
+
 A particularity of the Joint Python Accelerators project is to gather different
 Python accelerators for better interoperability and compatibility in particular
-with the Transonic package, which allows one code to be run with different
+using the Transonic package, which allows one code to be run with different
 accelerators. We are not aware of other projects similar to Transonic and the
 Joint Python Accelerators project.
 

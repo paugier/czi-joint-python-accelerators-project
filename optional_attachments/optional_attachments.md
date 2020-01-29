@@ -7,6 +7,16 @@ header-includes:
     - \include{header}
 ---
 
+# Logos of the projects
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.8\linewidth]{image_transonic_vision}
+\end{figure}
+
+Transonic accelerates Python-Numpy codes with the three accelerators Cython,
+Numba and Pythran.
+
 # References for the proposal
 
 ## Ralf Gommers
