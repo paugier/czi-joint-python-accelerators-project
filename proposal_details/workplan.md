@@ -2,10 +2,10 @@
 
 The proposed work can be summarized in nine points:
 
-1. scikit-image numerical kernels ported to Transonic with serious comparison
+1. Port scikit-image numerical kernels to Transonic with serious comparison
 between the existing Cython solutions and the different Transonic backends.
 These benchmarks should be reproducible on different platforms and the results
-will be made available on a website. We will propose to developers using other
+will be available on a website. We will propose to developers using other
 languages to submit their own implementations for comparison.
 
 2. Find the correct Transonic abstractions to represent most concepts available
@@ -32,7 +32,7 @@ use it (with good documentation for developers and for users).
    accelerators (for example Weld and Pyccel) to collaborate on their Transonic
    backend. We plan to propose an internship on this subject.
 
-   - Find good solutions for how the Transonic backend in chosen by the user.
+   - Find good solutions for how the Transonic backend is chosen by the user.
 
    - Transonic API to define alternative implementations of a function for
    different backends.
@@ -43,7 +43,7 @@ kernels (and/or cleaner code) with alternative backends (Pythran and Numba).
 
 7. Improve the accelerators when needed. Fix bugs, performance issues and new
 features (better fused types in Cython, improve Cython's pure-Python mode,
-`dataclass` in Pythran, improvement of Numba performance on high-level code).
+`dataclass` in Pythran, improve Numba performance on high-level code).
 
 8. Improve the integration and feature coverage of the Pythran support in
 Cython. This has the potential to improve without modification already written
@@ -56,10 +56,10 @@ engagement, documentation and maintenance. For example, Cython has more than
 700 opened issues and 77 pull requests! Taking care of users and contributors
 is also an important task.
 
-The deeper improvements of the accelerators with be performed by core
-developers of these projects, namely Serge Guelton for Pythran, Stefan Behnel
-for Cython and Valentin Haenel for Numba. Stefan will also
-solve Cython known issues that are blockers for Transonic-Cython (see
+The deeper improvements of the accelerators will be performed by core
+developers of these projects: Serge Guelton for Pythran, Stefan Behnel for
+Cython and Valentin Haenel for Numba. Stefan will also solve Cython issues that
+are blockers for Transonic-Cython (see
 <https://transonic.readthedocs.io/en/latest/backends/cython.html>). Serge will
 be implied in the tasks on Transonic/Gast/Beniget refactoring and
 Pythran/Cython integration.
@@ -78,10 +78,10 @@ the projects. Her/His tasks will be about (points 1 to 6 and 9):
 
 ## Dissemination of the results and communication
 
-Good communication, targeting both developers of libraries and simple users,
-is a key factor for the success of Transonic and of this project. We will
-therefore be very careful to spent time on the documentations of Transonic and
-of the accelerators, and more generally on communication through other channels:
+Good communication, targeting both developers of libraries and simple users, is
+a key factor for the success of this project. We will be very careful to spent
+time on the documentations of Transonic and of the accelerators, and more
+generally on communication through other channels:
 
 - Dedicated online chat service and social media,
 
@@ -92,16 +92,16 @@ submitted to the Journal of Open Source Software,
 
 - Benchmark repository and website,
 
-- Presentations and tutorials in Python conferences (in particular the annual
-Scipy conference and Euroscipy).
+- Presentations and tutorials in Python conferences (in particular the Scipy
+conference and Euroscipy).
 
 One goal of this project is to allow every simple user of Python to easily get
 very good performance. We will try to be as inclusive and accessible as
 possible in our communication.
 
-Finally, we plan to organize after the end of this one-year grant a workshop
-with tutorials and sprints. We will invite developers of libraries which could
-use the products that will be built during this project. Part of this workshop
-will be dedicated to work on the PyPy, HPy and EPython projects, which may
-become important for the future of efficient computing with Python. This event
-will be organized in Europe and may be coupled with EuroScipy or EuroPython.
+Finally, we plan to organize after the end of this grant a workshop with
+tutorials and sprints. We will invite developers of libraries which could use
+our accelerators. Part of this workshop will be dedicated to work on the PyPy,
+HPy and EPython projects, which may become important for the future of
+efficient computing with Python. This event will be organized in Europe and may
+be coupled with EuroScipy or EuroPython.
