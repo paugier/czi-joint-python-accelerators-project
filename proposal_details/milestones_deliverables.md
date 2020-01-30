@@ -1,7 +1,5 @@
 # Milestones
 
-TODO: refactor that!
-
 ## Phase 0 (June-December 2020)
 
 - Solve Cython issues that are blockers for Transonic-Cython.

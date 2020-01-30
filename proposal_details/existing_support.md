@@ -28,4 +28,4 @@ Between 2015 and 2018, it received 72,000 € from the
 ## Transonic
 
 The early development of Transonic has been funded by the [ERC project
-WATU](https://cordis.europa.eu/project/id/647018/fr) (4,500 €).
+WATU](https://cordis.europa.eu/project/id/647018/fr) (3,500 €).
