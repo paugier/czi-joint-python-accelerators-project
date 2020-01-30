@@ -61,7 +61,7 @@ Transonic improvements:
 5. Improve the test coverage and write a demo package using Transonic as
    scikit-image would use (with good documentation for developers and for users).
 
-5. Other Transonic improvements:
+6. Other Transonic improvements:
 
    - Make it easy to write a new backend to Transonic.  Currently, it should
      already be possible to write a backend as a Transonic extension.  We will
@@ -87,14 +87,13 @@ Evaluation:
 3. Demonstrate that Transonic-Cython is as fast as Cython on most scikit-image
    numerical kernels.
 
-6. Create pull-requests for the scikit-image and skimage-experiments repositories
+4. Create pull-requests for the scikit-image and skimage-experiments repositories
    to use the accelerators via Transonic.  First, Cython to Transonic-Cython,
    then faster kernels (and/or cleaner code) with alternative backends (Pythran
    and Numba).
 
-9. Beside these enhancements, we will also dedicate time and energy for community
-   engagement, documentation and maintenance. For example, Cython has more than
-   700 opened issues and 77 pull requests! Taking care of users and contributors
+5. Beside these enhancements, we will also dedicate time and energy for community
+   engagement, documentation and maintenance. Taking care of users and contributors
    is also an important task.
 
 The deeper improvements of the accelerators will be performed by core
@@ -116,35 +115,3 @@ the projects.  Her/His tasks will involve
 - reporting and investigating issues and working away the simpler ones,
 
 - improving the documentation of the accelerators targeting the users.
-
-## Dissemination of the results and communication
-
-Good communication, targeting both developers of libraries and simple users, is
-a key factor for the success of this project.  We will be very careful to spent
-time on the documentations of Transonic and of the accelerators, and more
-generally on communication through other channels:
-
-- Dedicated online chat service and social media,
-
-- Blog notes about the advancement of the project,
-
-- One article presenting Transonic and the Joint Python Accelerators project
-  submitted to the Journal of Open Source Software,
-
-- Benchmark repository and website,
-
-- Presentations and tutorials in Python conferences (in particular the SciPy
-  conference, EuroSciPy, EuroPython, etc.).
-
-It is a declared goal of this project to allow every simple user of Python
-to easily get very good performance.  We will try to be as inclusive and
-accessible as possible in our communication, and listen closely to our users
-needs, above all (but not limited to) the ``scikit-image`` project.
-
-Finally, we plan to organize a workshop after the end of this grant, featuring
-tutorials and sprints.  We will invite developers of libraries which could use
-our accelerators.  Part of this workshop will be dedicated to work on the PyPy,
-HPy and EPython projects, which may become important for the future of
-efficient computing with Python.  This event will be organized in Europe and may
-be coupled with EuroSciPy or EuroPython to make it easy for interested people to
-attend.

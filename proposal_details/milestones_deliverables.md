@@ -1,6 +1,8 @@
 # Milestones
 
-## Phase 0 (June-October 2020)
+TODO: refactor that!
+
+## Phase 0 (June-December 2020)
 
 - Solve Cython issues that are blockers for Transonic-Cython.
 
@@ -12,7 +14,7 @@ implementation).
 - Pull-requests in skimage-experiments and scikit-image with simple use of
 Transonic-Cython.
 
-## Phase 1 (November 2020 - February 2021)
+## Phase 1 (January 2020 - April 2021)
 
 - Benchmarks on many numerical kernels (from scikit-image and other projects).
 These benchmarks should be reproducible on different platforms and the results
@@ -27,11 +29,34 @@ pure-Python mode and interoperativity.
 - Pull-requests in skimage-experiments and scikit-image for faster kernels
 using alternative backends.
 
-## Phase 2 (March-May 2021)
+## Dissemination of the results and communication
 
-- Documentation of the packages Transonic and transonic_demo.
+Good communication, targeting both developers of libraries and simple users, is
+a key factor for the success of this project.  We will be very careful to spent
+time on the documentations of Transonic and of the accelerators, and more
+generally on communication through other channels:
 
-- Blog notes about the advancement of the project.
+- Dedicated online chat service and social media,
+
+- Blog notes about the advancement of the project,
 
 - One article presenting Transonic and the Joint Python Accelerators project
-submitted to the Journal of Open Source Software.
+  submitted to the Journal of Open Source Software,
+
+- Benchmark repository and website,
+
+- Presentations and tutorials in Python conferences (in particular the SciPy
+  conference, EuroSciPy, EuroPython, etc.).
+
+It is a declared goal of this project to allow every simple user of Python
+to easily get very good performance.  We will try to be as inclusive and
+accessible as possible in our communication, and listen closely to our users
+needs, above all (but not limited to) the ``scikit-image`` project.
+
+Finally, we plan to organize a workshop after the end of this grant, featuring
+tutorials and sprints.  We will invite developers of libraries which could use
+our accelerators.  Part of this workshop will be dedicated to work on the PyPy,
+HPy and EPython projects, which may become important for the future of
+efficient computing with Python.  This event will be organized in Europe and may
+be coupled with EuroSciPy or EuroPython to make it easy for interested people to
+attend.
