@@ -6,7 +6,7 @@ The proposed project can be summarized in two main end-user focussed goals:
    obstacles in their usage out of the way.
 
 2. Grow Transonic into a higher-level abstraction that covers up the differences
-   between these systems, so that users can choose between them later on rather
+   between these systems, so that users can choose between them later rather
    than being tied to their initial technology decision.
 
 From these goals, we extract the following work items:
@@ -55,7 +55,7 @@ Transonic improvements:
 
 4. Increase the robustness of Transonic to prevent its intermediate code generation
    from getting in the way of end-users.  This implies refactoring Transonic code
-   and improving dependencies used for code analyzes and transformations
+   and improving dependencies used for code analysis and transformation
    (Beniget and Gast).
 
 5. Improve the test coverage and write a demo package using Transonic as
@@ -114,4 +114,4 @@ the projects.  Her/His tasks will involve
 
 - reporting and investigating issues and working away the simpler ones,
 
-- improving the documentation of the accelerators targeting the users.
+- improving the documentation of the accelerators targeting users.

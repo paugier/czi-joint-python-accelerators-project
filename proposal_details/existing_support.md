@@ -9,7 +9,7 @@ grants or financing.
 ## Numba
 
 Anaconda currently employs 3 developers to develop and maintain Numba, and
-offsets some of this cost of this team with open source feature contributions
+offsets some of the cost of this team with open source feature contributions
 sponsored by customers or grants.
 
 Between 2013 and 2017, Numba was one of many open source research projects at
