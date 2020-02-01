@@ -46,10 +46,10 @@ generally on communication through other channels:
 - Presentations and tutorials in Python conferences (in particular the SciPy
   conference, EuroSciPy, EuroPython, etc.).
 
-It is a declared goal of this project to allow every simple user of Python
+It is a declared goal of this project to allow every end user of scientific Python
 to easily get very good performance.  We will try to be as inclusive and
-accessible as possible in our communication, and listen closely to our users
-needs, above all (but not limited to) the ``scikit-image`` project.
+accessible as possible in our communication, and listen closely to our users'
+needs, above all (but not limited to) the `scikit-image` project.
 
 Finally, we plan to organize a workshop after the end of this grant, featuring
 tutorials and sprints.  We will invite developers of libraries which could use
