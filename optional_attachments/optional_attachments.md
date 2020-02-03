@@ -86,6 +86,36 @@ for the ecosystem more widely.
 
 Juan Nunez-Iglesias, CZI Imaging Software Fellow, Monash University
 
+## Sylvain Corlay
+
+The relative slowness of the Python programming language has forced the developers
+of scientific applications to rely on high-level tools for array computing such
+as NumPy, which delegates the bulk of the operations to a compiled module.
+The fact that the entire community relied on a common abstraction layer
+facilitated the use of other accelerators such as GPU-based solutions (such as
+CuPy) and parallel computing frameworks (such as Dask).
+
+For more ad-hoc applications, where custom operations are still required, C speed is
+generally achieved using one of the most common accelerators such as Cython, Pythran,
+and Numba. Cython is very heavily used in projects such as scikit-learn, while Pythran
+and Numba are generally used by end-users to quickly accelerate performance-sensitive
+parts of their applications.
+
+For a major open-source project, adopting a specific accelerator rather than another
+is a difficult decision. Numba relies on LLVM and a significant compiler
+infrastructure while Pythran transpiles the code to C++ for greater speed, and Cython requires
+type annotations in the codebase. The transonic abstraction layer mitigates that risk and
+offers a common front-end to all accelerators. It may also correspond to the right level of
+abstraction for Python accelerators.
+
+I support this application that will help consolidate Python accelerators which are
+already key to the Python scientific computing ecosystem and broaden their adoption.
+I am especially excited to see more adoption of Pythran, which in my experience has shown
+impressive performances across the board, especially in codes mixing classic loops and
+vectorized operations.
+
+Sylvain Corlay, Jupyter Core Developer, NumFOCUS Director, Founder and CEO of QuantStack
+
 [^1]: <https://mail.python.org/archives/list/scikit-image@python.org/message/N5OQERDWVYZVVJVOPXXE7ISIIQB32BWG/>
 
 [^2]: <https://github.com/scikit-image/scikit-image/issues/2956>
