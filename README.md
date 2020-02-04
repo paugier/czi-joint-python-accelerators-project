@@ -25,6 +25,9 @@ https://www.youtube.com/watch?v=Zu_MmxdEW0M
 For administrative and programmatic inquiries pertaining to this RFA, please
 contact sciencegrants@chanzuckerberg.com.
 
+This proposal has been submitted on Feb. 4 2020 (application ID number
+EOSS2-0000000137).
+
 ## Dates
 
 Portal opening date
