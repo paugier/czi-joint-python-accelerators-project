@@ -16,8 +16,8 @@ We want to be able to invite contributors to present the project in
 conferences.
 
 - $8,000 for our final workshop with tutorials and sprints. We want to be able
-to invite (i) people from scientific Python libraries which could potentially
-used our results and (ii) people involved in new and promising projects like
+to invite (i) people from scientific Python libraries which could potentially
+used our results and (ii) people involved in new and promising projects like
 HPy and EPython. We will look for other sources of funding to be able to invite
 people.
 
@@ -32,7 +32,7 @@ people.
 - $34,800 for Serge Guelton's work.
 
 - $6,500 for an Outreachy scholarship on Transonic and Pythran
-(LowLevelCallable + backend Weld + document backends as extensions, Pythran
+(LowLevelCallable, backend Weld, document backends as extensions, Pythran
 issues #1059 and #1002).
 
 ## Numba
