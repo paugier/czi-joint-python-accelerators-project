@@ -2,7 +2,7 @@ name = optional_attachments
 figures :=
 
 $(name).pdf: $(name).md header.tex $(figures)
-	pandoc -s $(name).md -o $(name).pdf
+	pandoc --variable fontsize=12pt -s $(name).md -o $(name).pdf
 
 clean: cleanpdf
 	rm -rf tmp
